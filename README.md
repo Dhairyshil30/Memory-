@@ -46,18 +46,59 @@ This repository contains a parameterized memory RTL implemented in SystemVerilog
 ## Recommended Repo Structure
 
 ```plaintext
-/ (root)
-├─ src/
-│  └─ memory.sv           # RTL
-├─ tb/
-│  ├─ memory_tb.sv        # top-level testbench
-│  ├─ memory_agent.sv     # (optional) stimulus driver/monitor
-│  └─ sequences.sv        # (optional) constrained-random tests
-├─ sim/
-│  ├─ run_questasim.sh
-│  └─ run_vcs.sh
-└─ README.md
-```
+my-verification-project/
+│── README.md              # Project overview, setup instructions
+│── LICENSE                # License (optional, but good practice)
+│── .gitignore             # Ignore waves, logs, sim outputs
+│
+├── docs/                  # Documentation
+│   ├── architecture.md    # Testbench architecture, diagrams
+│   └── design_spec.md     # DUT design spec / requirements
+│
+├── src/                   # RTL / DUT source code
+│   ├── dut_top.sv
+│   ├── submodules/
+│   └── ...
+│
+├── tb/                    # Testbench environment
+│   ├── base/              # Base classes
+│   │   ├── test_base.sv
+│   │   └── env_base.sv
+│   │
+│   ├── agents/            # Driver, monitor, sequencer, etc.
+│   │   ├── mem_agent/
+│   │   │   ├── mem_driver.sv
+│   │   │   ├── mem_monitor.sv
+│   │   │   └── mem_sequencer.sv
+│   │   └── ...
+│   │
+│   ├── env/               # Environment-level files
+│   │   ├── env.sv
+│   │   └── scoreboard.sv
+│   │
+│   ├── tests/             # Test cases
+│   │   ├── smoke_test.sv
+│   │   ├── random_test.sv
+│   │   └── stress_test.sv
+│   │
+│   └── top_tb.sv          # Top-level testbench file
+│
+├── sim/                   # Simulation configs
+│   ├── run.do             # Questa/Modelsim script
+│   ├── compile.tcl        # Compilation script
+│   └── waves.do           # Waveform setup
+│
+├── scripts/               # Helper scripts
+│   ├── run_sim.sh         # Shell script to compile/run
+│   ├── clean.sh           # Cleanup
+│   └── gen_report.py      # Post-processing logs/reports
+│
+├── results/               # Logs, reports, coverage (gitignored)
+│   ├── logs/
+│   ├── waves/
+│   └── coverage/
+│
+└── Makefile               # Optional make-based build automation
 
 ---
 
