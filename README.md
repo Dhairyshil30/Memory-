@@ -9,10 +9,6 @@
 
 - ⚡ Fun fact **I use tabs over spaces**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
-
 
 
 ## Connect with me  
