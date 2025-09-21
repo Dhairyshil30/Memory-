@@ -1,3 +1,17 @@
+<h1 align="center">Hi 👋, I'm Dhairyshil.Chavan</h1>
+<h3 align="center">A passionate Design Verification Engineer.</h3>
+
+- 🌱 I’m currently learning **Design Verification**
+
+- 👨‍💻 All of my projects are available at [https://github.com/Dhairyshil30](https://github.com/Dhairyshil30)
+
+- 📫 How to reach me **dhairyshil.chavan09@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/dhairyshil chavan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dhairyshil chavan" height="30" width="40" /></a>
+<a href="https://discord.gg/dc04900" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="dc04900" height="30" width="40" /></a>
+</p>
 # Memory Project — SystemVerilog
 
 **Brief:**
