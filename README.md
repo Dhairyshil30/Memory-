@@ -7,6 +7,14 @@
 
 - 📫 How to reach me **dhairyshil.chavan09@gmail.com**
 
+- ⚡ Fun fact **I use tabs over spaces**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
+
+
+
 ## Connect with me  
 <div align="center">
 <a href="https://github.com/Dhairyshil30" target="_blank">
