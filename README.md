@@ -9,9 +9,6 @@
 
 ## Connect with me  
 <div align="center">
-<a href="https://dev.to/rishavanand" target="_blank">
-<img src=https://img.shields.io/badge/dev.to-%2308090A.svg?&style=for-the-badge&logo=dev.to&logoColor=white alt=devto style="margin-bottom: 5px;" />
-</a>
 <a href="https://github.com/https://github.com/Dhairyshil30" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
@@ -22,6 +19,7 @@
   
 
 <br/>  
+
 ---
 # Memory Project — SystemVerilog
 
